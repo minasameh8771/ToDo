@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="85" id="KGk-i7-Jjw" customClass="ToDoCell" customModule="Sakaly" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="355" height="85"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="355" height="84.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ToDo" translatesAutoresizingMaskIntoConstraints="NO" id="bAV-WN-xhM">
+                        <rect key="frame" x="9" y="6" width="76" height="69"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2020/5/20 08:33 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nrc-mo-6EO">
+                        <rect key="frame" x="100" y="13" width="124.5" height="14.5"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="14.5" id="JAF-HJ-bMy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.67500354009999997" green="0.081964174099999995" blue="0.87829156090000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="First note " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jbu-Zd-A5f">
+                        <rect key="frame" x="100" y="47.5" width="177.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Delete" translatesAutoresizingMaskIntoConstraints="NO" id="laU-vc-XmJ">
+                        <rect key="frame" x="330.5" y="31.5" width="14" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="14" id="cYO-ua-eph"/>
+                            <constraint firstAttribute="height" constant="22" id="dJz-Ic-fLt"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="jbu-Zd-A5f" firstAttribute="height" secondItem="nrc-mo-6EO" secondAttribute="height" id="0YR-k8-gzg"/>
+                    <constraint firstAttribute="bottom" secondItem="bAV-WN-xhM" secondAttribute="bottom" constant="9.5" id="3Ei-jr-oq6"/>
+                    <constraint firstItem="bAV-WN-xhM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="6" id="5gp-rq-8iU"/>
+                    <constraint firstItem="nrc-mo-6EO" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="13" id="7Y4-6Y-0hT"/>
+                    <constraint firstItem="bAV-WN-xhM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="9" id="FoP-Gu-dsO"/>
+                    <constraint firstItem="nrc-mo-6EO" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.35" id="I8v-hC-7L2"/>
+                    <constraint firstItem="laU-vc-XmJ" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NhF-BD-Xt7"/>
+                    <constraint firstItem="laU-vc-XmJ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.9" id="OQ5-LV-vzC"/>
+                    <constraint firstItem="jbu-Zd-A5f" firstAttribute="top" secondItem="nrc-mo-6EO" secondAttribute="bottom" constant="20" id="TOa-co-sg7"/>
+                    <constraint firstItem="jbu-Zd-A5f" firstAttribute="width" secondItem="H2p-sc-9uM" secondAttribute="width" multiplier="0.5" id="fFm-b5-sIg"/>
+                    <constraint firstItem="jbu-Zd-A5f" firstAttribute="leading" secondItem="nrc-mo-6EO" secondAttribute="leading" id="iBL-jq-g2Q"/>
+                    <constraint firstItem="nrc-mo-6EO" firstAttribute="leading" secondItem="bAV-WN-xhM" secondAttribute="trailing" constant="15" id="jLb-lH-4gN"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="contentLAbel" destination="jbu-Zd-A5f" id="Ehw-kv-ErG"/>
+                <outlet property="dateTxtField" destination="nrc-mo-6EO" id="Tiz-du-eff"/>
+                <outlet property="deleteImage" destination="laU-vc-XmJ" id="HoV-Ai-eqY"/>
+            </connections>
+            <point key="canvasLocation" x="34.057971014492757" y="78.683035714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Delete" width="14" height="20"/>
+        <image name="ToDo" width="76" height="76"/>
+    </resources>
+</document>

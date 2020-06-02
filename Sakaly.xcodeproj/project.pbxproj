@@ -1,0 +1,824 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C0A08C6246999930018E198 /* PopupControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C0A08C5246999930018E198 /* PopupControll.swift */; };
+		3C5468F5246D715F0078B754 /* user.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5468F4246D715F0078B754 /* user.swift */; };
+		3C83BEF62468A46E00753337 /* SignInControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83BEF52468A46E00753337 /* SignInControl.swift */; };
+		3C83BEF82468ADCE00753337 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83BEF72468ADCE00753337 /* MainScreen.swift */; };
+		3C90F02124683A2B001C68EC /* SignUpControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C90F02024683A2B001C68EC /* SignUpControl.swift */; };
+		3C9341EC24705FE5003C76EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3C9341EB24705FE5003C76EA /* GoogleService-Info.plist */; };
+		3CAAE5D0246AE8EB0034099C /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAE5CE246AE8EB0034099C /* ToDoCell.swift */; };
+		3CAAE5D1246AE8EB0034099C /* ToDoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3CAAE5CF246AE8EB0034099C /* ToDoCell.xib */; };
+		3CAAE5D4246AF9090034099C /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CAAE5D3246AF9090034099C /* TextField.swift */; };
+		3CCE4A8824786FC300AE8F50 /* ToDoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CCE4A8724786FC300AE8F50 /* ToDoData.swift */; };
+		3CF809C924675FB6004A386E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF809C824675FB6004A386E /* AppDelegate.swift */; };
+		3CF809CE24675FB6004A386E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF809CC24675FB6004A386E /* Main.storyboard */; };
+		3CF809D024675FB8004A386E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CF809CF24675FB8004A386E /* Assets.xcassets */; };
+		3CF809D324675FB8004A386E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CF809D124675FB8004A386E /* LaunchScreen.storyboard */; };
+		3CF809DE24675FB8004A386E /* SakalyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF809DD24675FB8004A386E /* SakalyTests.swift */; };
+		3CF809E924675FB8004A386E /* SakalyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CF809E824675FB8004A386E /* SakalyUITests.swift */; };
+		6D92A27C8C0EF9281321748A /* Pods_SakalyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2C7692AC789BBB8719C796 /* Pods_SakalyTests.framework */; };
+		9D8249F33E4D7B1EF64C3C66 /* Pods_Sakaly_SakalyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40E7F76B3909B5C19154EA0C /* Pods_Sakaly_SakalyUITests.framework */; };
+		C24D459064BFC533FB4F9401 /* Pods_Sakaly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A255607B217E709A635B54AD /* Pods_Sakaly.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3CF809DA24675FB8004A386E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF809BD24675FB5004A386E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF809C424675FB6004A386E;
+			remoteInfo = Sakaly;
+		};
+		3CF809E524675FB8004A386E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3CF809BD24675FB5004A386E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3CF809C424675FB6004A386E;
+			remoteInfo = Sakaly;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C0A08C5246999930018E198 /* PopupControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupControll.swift; sourceTree = "<group>"; };
+		3C5468F4246D715F0078B754 /* user.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = user.swift; sourceTree = "<group>"; };
+		3C83BEF52468A46E00753337 /* SignInControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInControl.swift; sourceTree = "<group>"; };
+		3C83BEF72468ADCE00753337 /* MainScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		3C90F02024683A2B001C68EC /* SignUpControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpControl.swift; sourceTree = "<group>"; };
+		3C9341EB24705FE5003C76EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3CAAE5CE246AE8EB0034099C /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
+		3CAAE5CF246AE8EB0034099C /* ToDoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ToDoCell.xib; sourceTree = "<group>"; };
+		3CAAE5D3246AF9090034099C /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		3CCE4A8724786FC300AE8F50 /* ToDoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoData.swift; sourceTree = "<group>"; };
+		3CF809C524675FB6004A386E /* Sakaly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sakaly.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF809C824675FB6004A386E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CF809CD24675FB6004A386E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CF809CF24675FB8004A386E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CF809D224675FB8004A386E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CF809D424675FB8004A386E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF809D924675FB8004A386E /* SakalyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakalyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF809DD24675FB8004A386E /* SakalyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakalyTests.swift; sourceTree = "<group>"; };
+		3CF809DF24675FB8004A386E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CF809E424675FB8004A386E /* SakalyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SakalyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CF809E824675FB8004A386E /* SakalyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SakalyUITests.swift; sourceTree = "<group>"; };
+		3CF809EA24675FB8004A386E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E7F76B3909B5C19154EA0C /* Pods_Sakaly_SakalyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakaly_SakalyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ABD8A15178C44F6650D57BA /* Pods-Sakaly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakaly.release.xcconfig"; path = "Target Support Files/Pods-Sakaly/Pods-Sakaly.release.xcconfig"; sourceTree = "<group>"; };
+		788577A9D89F86D2FAFD9067 /* Pods-Sakaly-SakalyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakaly-SakalyUITests.debug.xcconfig"; path = "Target Support Files/Pods-Sakaly-SakalyUITests/Pods-Sakaly-SakalyUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9D6FAB6362713F53A14C4822 /* Pods-SakalyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakalyTests.debug.xcconfig"; path = "Target Support Files/Pods-SakalyTests/Pods-SakalyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A255607B217E709A635B54AD /* Pods_Sakaly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sakaly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE8C37129BC178AC650C160C /* Pods-Sakaly-SakalyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakaly-SakalyUITests.release.xcconfig"; path = "Target Support Files/Pods-Sakaly-SakalyUITests/Pods-Sakaly-SakalyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE2C7692AC789BBB8719C796 /* Pods_SakalyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SakalyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE6D6FF3400E1B7F7F5C3A9E /* Pods-SakalyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SakalyTests.release.xcconfig"; path = "Target Support Files/Pods-SakalyTests/Pods-SakalyTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5985C28EE6B2206DA2B9BE9 /* Pods-Sakaly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sakaly.debug.xcconfig"; path = "Target Support Files/Pods-Sakaly/Pods-Sakaly.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CF809C224675FB6004A386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D459064BFC533FB4F9401 /* Pods_Sakaly.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809D624675FB8004A386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D92A27C8C0EF9281321748A /* Pods_SakalyTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809E124675FB8004A386E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D8249F33E4D7B1EF64C3C66 /* Pods_Sakaly_SakalyUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CAAE5CD246AE7CD0034099C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				3CAAE5CE246AE8EB0034099C /* ToDoCell.swift */,
+				3CAAE5CF246AE8EB0034099C /* ToDoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		3CAAE5D2246AF8C50034099C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CAAE5D3246AF9090034099C /* TextField.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CF809BC24675FB5004A386E = {
+			isa = PBXGroup;
+			children = (
+				3CF809C724675FB6004A386E /* Sakaly */,
+				3CF809DC24675FB8004A386E /* SakalyTests */,
+				3CF809E724675FB8004A386E /* SakalyUITests */,
+				3CF809C624675FB6004A386E /* Products */,
+				AE8B218DC9F6CF7B06A91241 /* Pods */,
+				CC16181F7CD67102967BEC38 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CF809C624675FB6004A386E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CF809C524675FB6004A386E /* Sakaly.app */,
+				3CF809D924675FB8004A386E /* SakalyTests.xctest */,
+				3CF809E424675FB8004A386E /* SakalyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CF809C724675FB6004A386E /* Sakaly */ = {
+			isa = PBXGroup;
+			children = (
+				3CF809C824675FB6004A386E /* AppDelegate.swift */,
+				3CF809CF24675FB8004A386E /* Assets.xcassets */,
+				3CF809D424675FB8004A386E /* Info.plist */,
+				3C9341EB24705FE5003C76EA /* GoogleService-Info.plist */,
+				3CAAE5D2246AF8C50034099C /* Extensions */,
+				3CAAE5CD246AE7CD0034099C /* Cells */,
+				3CF809F82467641C004A386E /* Models */,
+				3CF809F724676411004A386E /* StoryBoard */,
+				3CF809F6246763F8004A386E /* Controls */,
+			);
+			path = Sakaly;
+			sourceTree = "<group>";
+		};
+		3CF809DC24675FB8004A386E /* SakalyTests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF809DD24675FB8004A386E /* SakalyTests.swift */,
+				3CF809DF24675FB8004A386E /* Info.plist */,
+			);
+			path = SakalyTests;
+			sourceTree = "<group>";
+		};
+		3CF809E724675FB8004A386E /* SakalyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3CF809E824675FB8004A386E /* SakalyUITests.swift */,
+				3CF809EA24675FB8004A386E /* Info.plist */,
+			);
+			path = SakalyUITests;
+			sourceTree = "<group>";
+		};
+		3CF809F6246763F8004A386E /* Controls */ = {
+			isa = PBXGroup;
+			children = (
+				3C90F02024683A2B001C68EC /* SignUpControl.swift */,
+				3C83BEF52468A46E00753337 /* SignInControl.swift */,
+				3C83BEF72468ADCE00753337 /* MainScreen.swift */,
+				3C0A08C5246999930018E198 /* PopupControll.swift */,
+			);
+			path = Controls;
+			sourceTree = "<group>";
+		};
+		3CF809F724676411004A386E /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				3CF809D124675FB8004A386E /* LaunchScreen.storyboard */,
+				3CF809CC24675FB6004A386E /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		3CF809F82467641C004A386E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3C5468F4246D715F0078B754 /* user.swift */,
+				3CCE4A8724786FC300AE8F50 /* ToDoData.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AE8B218DC9F6CF7B06A91241 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E5985C28EE6B2206DA2B9BE9 /* Pods-Sakaly.debug.xcconfig */,
+				6ABD8A15178C44F6650D57BA /* Pods-Sakaly.release.xcconfig */,
+				788577A9D89F86D2FAFD9067 /* Pods-Sakaly-SakalyUITests.debug.xcconfig */,
+				BE8C37129BC178AC650C160C /* Pods-Sakaly-SakalyUITests.release.xcconfig */,
+				9D6FAB6362713F53A14C4822 /* Pods-SakalyTests.debug.xcconfig */,
+				DE6D6FF3400E1B7F7F5C3A9E /* Pods-SakalyTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC16181F7CD67102967BEC38 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A255607B217E709A635B54AD /* Pods_Sakaly.framework */,
+				40E7F76B3909B5C19154EA0C /* Pods_Sakaly_SakalyUITests.framework */,
+				CE2C7692AC789BBB8719C796 /* Pods_SakalyTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CF809C424675FB6004A386E /* Sakaly */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF809ED24675FB8004A386E /* Build configuration list for PBXNativeTarget "Sakaly" */;
+			buildPhases = (
+				D4A21238B4843A7FFB0A2CE5 /* [CP] Check Pods Manifest.lock */,
+				3CF809C124675FB6004A386E /* Sources */,
+				3CF809C224675FB6004A386E /* Frameworks */,
+				3CF809C324675FB6004A386E /* Resources */,
+				3D8B8886AC4658DB06BF2D6C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sakaly;
+			productName = Sakaly;
+			productReference = 3CF809C524675FB6004A386E /* Sakaly.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3CF809D824675FB8004A386E /* SakalyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF809F024675FB8004A386E /* Build configuration list for PBXNativeTarget "SakalyTests" */;
+			buildPhases = (
+				50125A2B9DD732EA895415F4 /* [CP] Check Pods Manifest.lock */,
+				3CF809D524675FB8004A386E /* Sources */,
+				3CF809D624675FB8004A386E /* Frameworks */,
+				3CF809D724675FB8004A386E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF809DB24675FB8004A386E /* PBXTargetDependency */,
+			);
+			name = SakalyTests;
+			productName = SakalyTests;
+			productReference = 3CF809D924675FB8004A386E /* SakalyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3CF809E324675FB8004A386E /* SakalyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CF809F324675FB8004A386E /* Build configuration list for PBXNativeTarget "SakalyUITests" */;
+			buildPhases = (
+				11B5F29012D4D96C365E67C6 /* [CP] Check Pods Manifest.lock */,
+				3CF809E024675FB8004A386E /* Sources */,
+				3CF809E124675FB8004A386E /* Frameworks */,
+				3CF809E224675FB8004A386E /* Resources */,
+				9493ED1CE025B9A25DA2A105 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3CF809E624675FB8004A386E /* PBXTargetDependency */,
+			);
+			name = SakalyUITests;
+			productName = SakalyUITests;
+			productReference = 3CF809E424675FB8004A386E /* SakalyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CF809BD24675FB5004A386E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "mina sameh";
+				TargetAttributes = {
+					3CF809C424675FB6004A386E = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					3CF809D824675FB8004A386E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3CF809C424675FB6004A386E;
+					};
+					3CF809E324675FB8004A386E = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = 3CF809C424675FB6004A386E;
+					};
+				};
+			};
+			buildConfigurationList = 3CF809C024675FB5004A386E /* Build configuration list for PBXProject "Sakaly" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CF809BC24675FB5004A386E;
+			productRefGroup = 3CF809C624675FB6004A386E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CF809C424675FB6004A386E /* Sakaly */,
+				3CF809D824675FB8004A386E /* SakalyTests */,
+				3CF809E324675FB8004A386E /* SakalyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CF809C324675FB6004A386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF809D324675FB8004A386E /* LaunchScreen.storyboard in Resources */,
+				3CF809D024675FB8004A386E /* Assets.xcassets in Resources */,
+				3C9341EC24705FE5003C76EA /* GoogleService-Info.plist in Resources */,
+				3CF809CE24675FB6004A386E /* Main.storyboard in Resources */,
+				3CAAE5D1246AE8EB0034099C /* ToDoCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809D724675FB8004A386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809E224675FB8004A386E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		11B5F29012D4D96C365E67C6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakaly-SakalyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3D8B8886AC4658DB06BF2D6C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakaly/Pods-Sakaly-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakaly/Pods-Sakaly-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakaly/Pods-Sakaly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50125A2B9DD732EA895415F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SakalyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9493ED1CE025B9A25DA2A105 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakaly-SakalyUITests/Pods-Sakaly-SakalyUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Sakaly-SakalyUITests/Pods-Sakaly-SakalyUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Sakaly-SakalyUITests/Pods-Sakaly-SakalyUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A21238B4843A7FFB0A2CE5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Sakaly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CF809C124675FB6004A386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83BEF82468ADCE00753337 /* MainScreen.swift in Sources */,
+				3CAAE5D0246AE8EB0034099C /* ToDoCell.swift in Sources */,
+				3C0A08C6246999930018E198 /* PopupControll.swift in Sources */,
+				3CCE4A8824786FC300AE8F50 /* ToDoData.swift in Sources */,
+				3CAAE5D4246AF9090034099C /* TextField.swift in Sources */,
+				3C5468F5246D715F0078B754 /* user.swift in Sources */,
+				3CF809C924675FB6004A386E /* AppDelegate.swift in Sources */,
+				3C90F02124683A2B001C68EC /* SignUpControl.swift in Sources */,
+				3C83BEF62468A46E00753337 /* SignInControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809D524675FB8004A386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF809DE24675FB8004A386E /* SakalyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3CF809E024675FB8004A386E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF809E924675FB8004A386E /* SakalyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3CF809DB24675FB8004A386E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF809C424675FB6004A386E /* Sakaly */;
+			targetProxy = 3CF809DA24675FB8004A386E /* PBXContainerItemProxy */;
+		};
+		3CF809E624675FB8004A386E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3CF809C424675FB6004A386E /* Sakaly */;
+			targetProxy = 3CF809E524675FB8004A386E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3CF809CC24675FB6004A386E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF809CD24675FB6004A386E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CF809D124675FB8004A386E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CF809D224675FB8004A386E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CF809EB24675FB8004A386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CF809EC24675FB8004A386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CF809EE24675FB8004A386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5985C28EE6B2206DA2B9BE9 /* Pods-Sakaly.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sakaly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Sakaly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CF809EF24675FB8004A386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6ABD8A15178C44F6650D57BA /* Pods-Sakaly.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Sakaly/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.Sakaly;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CF809F124675FB8004A386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D6FAB6362713F53A14C4822 /* Pods-SakalyTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakalyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.SakalyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sakaly.app/Sakaly";
+			};
+			name = Debug;
+		};
+		3CF809F224675FB8004A386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE6D6FF3400E1B7F7F5C3A9E /* Pods-SakalyTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakalyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.SakalyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sakaly.app/Sakaly";
+			};
+			name = Release;
+		};
+		3CF809F424675FB8004A386E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 788577A9D89F86D2FAFD9067 /* Pods-Sakaly-SakalyUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakalyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.SakalyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sakaly;
+			};
+			name = Debug;
+		};
+		3CF809F524675FB8004A386E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8C37129BC178AC650C160C /* Pods-Sakaly-SakalyUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SakalyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = a.SakalyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sakaly;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CF809C024675FB5004A386E /* Build configuration list for PBXProject "Sakaly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF809EB24675FB8004A386E /* Debug */,
+				3CF809EC24675FB8004A386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF809ED24675FB8004A386E /* Build configuration list for PBXNativeTarget "Sakaly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF809EE24675FB8004A386E /* Debug */,
+				3CF809EF24675FB8004A386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF809F024675FB8004A386E /* Build configuration list for PBXNativeTarget "SakalyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF809F124675FB8004A386E /* Debug */,
+				3CF809F224675FB8004A386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CF809F324675FB8004A386E /* Build configuration list for PBXNativeTarget "SakalyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CF809F424675FB8004A386E /* Debug */,
+				3CF809F524675FB8004A386E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CF809BD24675FB5004A386E /* Project object */;
+}

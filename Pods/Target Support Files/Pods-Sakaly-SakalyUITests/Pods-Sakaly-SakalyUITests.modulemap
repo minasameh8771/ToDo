@@ -1,0 +1,6 @@
+framework module Pods_Sakaly_SakalyUITests {
+  umbrella header "Pods-Sakaly-SakalyUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
